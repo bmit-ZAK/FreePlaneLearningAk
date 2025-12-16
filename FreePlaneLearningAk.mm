@@ -1,5 +1,8 @@
 <map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<bookmarks>
+    <bookmark nodeId="ID_191153586" name="Root" opensAsRoot="true"/>
+</bookmarks>
 <node TEXT="FreePLane&#xa;Learning Ak&#xa;V1.1" FOLDED="false" ID="ID_191153586" CREATED="1610381622013" MODIFIED="1743253135990" ICON_SIZE="36 pt" LINK="menuitem:_ExternalImageAddAction" STYLE="oval">
 <font SIZE="22"/>
 <hook NAME="MapStyle" zoom="0.82644624">
@@ -331,7 +334,7 @@
 <attribute_layout NAME_WIDTH="120 pt" VALUE_WIDTH="120 pt"/>
 <node TEXT="tags can have categories" ID="ID_1819475384" CREATED="1739990418654" MODIFIED="1739990426743"/>
 </node>
-<node TEXT="Attributes (Alt + F9)" FOLDED="true" ID="ID_1894781380" CREATED="1739991167668" MODIFIED="1743252203068" TEXT_SHORTENED="true">
+<node TEXT="Attributes (Alt + F9)" ID="ID_1894781380" CREATED="1739991167668" MODIFIED="1743252203068" TEXT_SHORTENED="true">
 <attribute_layout NAME_WIDTH="120 pt" VALUE_WIDTH="120 pt"/>
 <attribute NAME="book Page" VALUE="nn" OBJECT="org.freeplane.features.format.FormattedObject|java.lang.String&amp;#x7c;nn|number:decimal:#0.####"/>
 <node TEXT="kopierbar" FOLDED="true" ID="ID_124712190" CREATED="1739991238045" MODIFIED="1739991250704">
@@ -358,7 +361,7 @@
 <node TEXT="set a link to a value" ID="ID_1541244861" CREATED="1740094156206" MODIFIED="1740094175906" LINK="https://pdfcoffee.com/free-plane-tutorial-pdf-free.html">
 <attribute_layout NAME_WIDTH="120 pt" VALUE_WIDTH="120 pt"/>
 </node>
-<node TEXT="Ablauf" FOLDED="true" ID="ID_389721659" CREATED="1742146324816" MODIFIED="1743251938932">
+<node TEXT="Ablauf" ID="ID_389721659" CREATED="1742146324816" MODIFIED="1743251938932">
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
 <node ID="ID_830535768" CREATED="1742146337679" MODIFIED="1743252190225"><richcontent TYPE="NODE">
 
@@ -497,7 +500,7 @@
 <node TEXT="Ich bin ein child" ID="ID_1257087401" CREATED="1739991571948" MODIFIED="1739991579207"/>
 <node TEXT="Ich bin ein weiteres child" ID="ID_1463769491" CREATED="1739991579621" MODIFIED="1739991586520"/>
 </node>
-<node TEXT="Swap Tab" FOLDED="true" ID="ID_569449858" CREATED="1742143353063" MODIFIED="1743251749629">
+<node TEXT="Swap Tab" ID="ID_569449858" CREATED="1742143353063" MODIFIED="1743251749629">
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
 <richcontent TYPE="DETAILS">
 <html>
@@ -19035,6 +19038,9 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node FOLDED="true" ID="ID_607306079" TREE_ID="ID_569449858">
+<node ID="ID_676130970" TREE_ID="ID_957127406"/>
 </node>
 </node>
 <node TEXT="Exports" ID="ID_1165185057" CREATED="1740169416081" MODIFIED="1740169419251">
