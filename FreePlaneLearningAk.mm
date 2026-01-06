@@ -5,7 +5,7 @@
 </bookmarks>
 <node TEXT="FreePLane&#xa;Learning Ak&#xa;V1.1" FOLDED="false" ID="ID_191153586" CREATED="1610381622013" MODIFIED="1743253135990" ICON_SIZE="36 pt" LINK="menuitem:_ExternalImageAddAction" STYLE="oval">
 <font SIZE="22"/>
-<hook NAME="MapStyle" zoom="0.82644624">
+<hook NAME="MapStyle" zoom="0.56447387">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" allow_compact_layout="false" associatedTemplateLocation="template:/BuzanMap.mm" show_tags="UNDER_NODES" fit_to_viewport="false" show_icons="BESIDE_NODES" show_note_icons="true" showTagCategories="false"/>
     <tags category_separator="::" tagcolor1="This a tag made by ak#0083a6ff" tagcolor2="This is another tag made by ak#91aa00ff"/>
 
@@ -134,12 +134,69 @@
 </html></richcontent>
 <hook NAME="presentations">
     <presentation NAME="AK Intro Presentation">
-        <slide NAME="Main title" changesZoom="true" rootNodeId="ID_191153586" zoom="3.4522722"/>
-        <slide NAME="Sub title" changesZoom="true" rootNodeId="ID_191153586" placedNodeId="ID_273436263" zoom="0.82644624">
+        <slide NAME="Main Title"/>
+        <slide NAME="slide experiments as root" rootNodeId="ID_423356749"/>
+        <slide NAME="&apos;1&apos; as root" rootNodeId="ID_686517182"/>
+        <slide NAME="Select Slide Nodes on the map" rootNodeId="ID_686517182"/>
+        <slide NAME="&apos;House&apos; as root" rootNodeId="ID_215085548"/>
+        <slide NAME="bulb" rootNodeId="ID_686517182">
             <NodesOnSlide>
-                <NodeOnSlide nodeId="ID_273436263"/>
+                <NodeOnSlide nodeId="ID_191153586"/>
+                <NodeOnSlide nodeId="ID_818639382"/>
+                <NodeOnSlide nodeId="ID_30642743"/>
+                <NodeOnSlide nodeId="ID_1097330311"/>
             </NodesOnSlide>
         </slide>
+        <slide NAME="bulb placed on RH" rootNodeId="ID_686517182" placedNodeId="ID_818639382" placedNodePosition="RIGHT">
+            <NodesOnSlide>
+                <NodeOnSlide nodeId="ID_191153586"/>
+                <NodeOnSlide nodeId="ID_818639382"/>
+                <NodeOnSlide nodeId="ID_30642743"/>
+                <NodeOnSlide nodeId="ID_1097330311"/>
+            </NodesOnSlide>
+        </slide>
+        <slide NAME="bulb placed on LH" rootNodeId="ID_686517182" placedNodeId="ID_191153586" placedNodePosition="LEFT">
+            <NodesOnSlide>
+                <NodeOnSlide nodeId="ID_191153586"/>
+                <NodeOnSlide nodeId="ID_818639382"/>
+                <NodeOnSlide nodeId="ID_30642743"/>
+                <NodeOnSlide nodeId="ID_1097330311"/>
+            </NodesOnSlide>
+        </slide>
+        <slide NAME="bulb placed on Center" rootNodeId="ID_686517182" placedNodeId="ID_191153586">
+            <NodesOnSlide>
+                <NodeOnSlide nodeId="ID_191153586"/>
+                <NodeOnSlide nodeId="ID_818639382"/>
+                <NodeOnSlide nodeId="ID_30642743"/>
+                <NodeOnSlide nodeId="ID_1097330311"/>
+            </NodesOnSlide>
+        </slide>
+        <slide NAME="bulb placed on Center (indish wiki)" rootNodeId="ID_686517182" placedNodeId="ID_191153586">
+            <NodesOnSlide>
+                <NodeOnSlide nodeId="ID_191153586"/>
+                <NodeOnSlide nodeId="ID_818639382"/>
+                <NodeOnSlide nodeId="ID_30642743"/>
+                <NodeOnSlide nodeId="ID_1097330311"/>
+            </NodesOnSlide>
+        </slide>
+        <slide NAME="add currently selected nodes" rootNodeId="ID_686517182" placedNodeId="">
+            <NodesOnSlide>
+                <NodeOnSlide nodeId="ID_1363091289"/>
+            </NodesOnSlide>
+        </slide>
+        <slide NAME="Set Zoom 130" changesZoom="true" rootNodeId="ID_686517182" zoom="1.3310001"/>
+        <slide NAME="set zoom 75" changesZoom="true" zoom="0.75131476"/>
+        <slide NAME="set zoom 100" changesZoom="true"/>
+        <slide NAME="New slide 18" showsOnlySpecificNodes="true" changesZoom="true" placedNodeId="" zoom="0.82644624"/>
+        <slide NAME="New slide 17" showsOnlySpecificNodes="true" changesZoom="true" rootNodeId="ID_686517182" placedNodeId="" zoom="0.82644624"/>
+        <slide NAME="ad its sub node as well" rootNodeId="ID_686517182">
+            <NodesOnSlide>
+                <NodeOnSlide nodeId="ID_710487399"/>
+            </NodesOnSlide>
+        </slide>
+        <slide NAME="remove sub node" rootNodeId="ID_686517182"/>
+        <slide NAME="New slide 15" rootNodeId="ID_686517182"/>
+        <slide NAME="end" rootNodeId="ID_686517182"/>
     </presentation>
 </hook>
 <attribute_layout NAME_WIDTH="120 pt" VALUE_WIDTH="120 pt"/>
@@ -19043,7 +19100,7 @@
 <node TEXT="View - Control" ID="ID_593280548" CREATED="1740054156780" MODIFIED="1740054161646"/>
 </node>
 <node TEXT="Multiple Views side by side for one Map" ID="ID_952010861" CREATED="1740054685912" MODIFIED="1740054724347"/>
-<node TEXT="Presentations" FOLDED="true" ID="ID_1779053329" CREATED="1740054476079" MODIFIED="1740092985858">
+<node TEXT="Presentations" ID="ID_1779053329" CREATED="1740054476079" MODIFIED="1740092985858">
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
 <node TEXT="icon" ID="ID_952271205" CREATED="1740092960539" MODIFIED="1740093220841">
 <hook URI="FreePlaneLearningAk_img/ToolPanel.jpg" SIZE="1.0" NAME="ExternalObject"/>
@@ -19058,6 +19115,228 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node TEXT="experiments" ID="ID_423356749" CREATED="1767712047852" MODIFIED="1767712141067"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ..with slide content panel
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="1" OBJECT="java.lang.Long|1" POSITION="top_or_left" ID="ID_686517182" CREATED="1767712327131" MODIFIED="1767712328487">
+<node TEXT="Change slide root node" POSITION="top_or_left" ID="ID_215085548" CREATED="1767712074722" MODIFIED="1767713814485">
+<icon BUILTIN="gohome"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Der grüne dicke Rahmen, der dien 'root' symbolisiert, springt beim ersten Klick auf den Root des Diagramms. Beim nächsten Klick auf den selektieren Knoten. (Wenn mehrere selektiert sind, dann auf den ersten von diesen.)
+    </p>
+    <p>
+      Angezeigt werden 'Nachfolger', falls sie nicht gefaltet sind. Aber keine Geschwister und keine Vorgänger.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node TEXT="make currently selected nodes the slide content" POSITION="top_or_left" ID="ID_818639382" CREATED="1767712084611" MODIFIED="1767713432029">
+<icon BUILTIN="idea"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Für die Präsentation öffnen sich die markierten knoten, aber nur diese. Keine Unterknoten. Und nur temporär.
+    </p>
+    <p>
+      Temporär: Wenn die Präsentation zu Ende ist, sind die Knoten wieder im Urzustand (offen oder geschlossen).
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="sel yes1" FOLDED="true" ID="ID_30642743" CREATED="1767712259560" MODIFIED="1767712280669">
+<node TEXT="descendants" ID="ID_755405489" CREATED="1767713029503" MODIFIED="1767713060917"/>
+</node>
+<node TEXT="sel no" ID="ID_1295806435" CREATED="1767712263185" MODIFIED="1767712267710"/>
+<node TEXT="sel yes2" FOLDED="true" ID="ID_1097330311" CREATED="1767712268247" MODIFIED="1767712283797">
+<node TEXT="descendants" ID="ID_183234776" CREATED="1767713041742" MODIFIED="1767713055203"/>
+</node>
+</node>
+<node TEXT="add currently selected nodes to the slide" POSITION="top_or_left" ID="ID_1363091289" CREATED="1767712154373" MODIFIED="1767715037510">
+<icon BUILTIN="addition"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wird temporär entfaltet, falls er es nicht schon ist.
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="add its subnote as well" ID="ID_710487399" CREATED="1767714790589" MODIFIED="1767714797116"/>
+</node>
+<node TEXT="remove currently selected nodes to the slide" FOLDED="true" POSITION="top_or_left" ID="ID_1424514293" CREATED="1767712179709" MODIFIED="1767716622868">
+<icon BUILTIN="subtraction"/>
+<icon BUILTIN="smiley-angry"/>
+<richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      not working
+    </p>
+  </body>
+</html></richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      if no node is selected, because of the command 'remove currently slected nodes' then the projects 'root' is displayed
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="subnode of &apos;remove&apos;" ID="ID_1320802983" CREATED="1767714801121" MODIFIED="1767714819976"/>
+</node>
+<node TEXT="also to remove with the one ybove" POSITION="top_or_left" ID="ID_912087984" CREATED="1767715091466" MODIFIED="1767715114082"/>
+<node TEXT="Select slide nodes on the map" POSITION="top_or_left" ID="ID_641174926" CREATED="1767712230896" MODIFIED="1767715568352">
+<icon BUILTIN="checked"/>
+<icon BUILTIN="smiley-angry"/>
+<richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      not working
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node TEXT="2" OBJECT="java.lang.Long|2" POSITION="top_or_left" ID="ID_333361506" CREATED="1767712332799" MODIFIED="1767712334357">
+<node TEXT="place selected node" ID="ID_1186063473" CREATED="1767712335253" MODIFIED="1767714674956"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      when slide is presented
+    </p>
+  </body>
+</html></richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Which one is the selected node?
+    </p>
+    <p>
+      Not the one you just select before pressing the button 'Place the selected node'
+    </p>
+    <p>
+      It's more the one that was selected when you choose one of the four pictograms on top of the 'Slide content' panel
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="on the right" ID="ID_967786616" CREATED="1767712396301" MODIFIED="1767714514219"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      yes
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="at center" ID="ID_1550105354" CREATED="1767712358158" MODIFIED="1767714510439"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      somhow
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="on the left" ID="ID_1451152466" CREATED="1767712391027" MODIFIED="1767714505129"><richcontent TYPE="DETAILS">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      somehow
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="3" OBJECT="java.lang.Long|3" POSITION="top_or_left" ID="ID_1280386702" CREATED="1767712420086" MODIFIED="1767712422332">
+<node TEXT="set zoom" FOLDED="true" ID="ID_1422047803" CREATED="1767712422892" MODIFIED="1767716379349"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Works for the whole canvas<br/>
+    </p>
+    <p>
+      Zoom with Ctrl + Mousescroll before pressing 'set zoom'
+    </p>
+    <p>
+      Multiple pressing 'set zoom' shows you the zoom factore
+    </p>
+  </body>
+</html></richcontent>
+<node TEXT="Zoom with Ctrl + Mousescroll before pressing" ID="ID_511911323" CREATED="1767716132375" MODIFIED="1767716164712"/>
+</node>
+</node>
+<node TEXT="4" OBJECT="java.lang.Long|4" POSITION="top_or_left" ID="ID_1403367214" CREATED="1767712495094" MODIFIED="1767712496088">
+<node TEXT="show only selected nodes" ID="ID_206452365" CREATED="1767712435987" MODIFIED="1767712503850">
+<node TEXT="ancesters" ID="ID_1268621378" CREATED="1767712457745" MODIFIED="1767712460921"/>
+<node TEXT="descendents" ID="ID_1907183482" CREATED="1767712461210" MODIFIED="1767712464185"/>
+</node>
+</node>
+<node TEXT="5" OBJECT="java.lang.Long|5" POSITION="top_or_left" ID="ID_512316755" CREATED="1767712481618" MODIFIED="1767712484931">
+<node TEXT="set filter" ID="ID_363505593" CREATED="1767712486747" MODIFIED="1767712488893"/>
+</node>
+<node TEXT="6" OBJECT="java.lang.Long|6" POSITION="top_or_left" ID="ID_1891555255" CREATED="1767712515796" MODIFIED="1767712517014">
+<node TEXT="set folding states" ID="ID_1126259702" CREATED="1767712518608" MODIFIED="1767712523429">
+<node TEXT="unfolded" ID="ID_1288707472" CREATED="1767712528327" MODIFIED="1767712532269">
+<node TEXT="1" OBJECT="java.lang.Long|1" ID="ID_923745542" CREATED="1767712538612" MODIFIED="1767712540188"/>
+<node TEXT="2" OBJECT="java.lang.Long|2" ID="ID_1588914983" CREATED="1767712541312" MODIFIED="1767712541987"/>
+</node>
+<node TEXT="folded" ID="ID_256980455" CREATED="1767712532898" MODIFIED="1767712535372">
+<node TEXT="a folded" ID="ID_1138562224" CREATED="1767712544101" MODIFIED="1767712559563"/>
+<node TEXT="b folded" ID="ID_1776547822" CREATED="1767712545902" MODIFIED="1767712563231"/>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node FOLDED="true" ID="ID_607306079" TREE_ID="ID_569449858">
