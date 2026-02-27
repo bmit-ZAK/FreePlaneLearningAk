@@ -1,4 +1,4 @@
-<map version="freeplane 1.12.1">
+<map version="freeplane 1.12.15">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <bookmarks>
     <bookmark nodeId="ID_191153586" name="Root" opensAsRoot="true"/>
@@ -573,12 +573,24 @@
 </html></richcontent>
 <attribute_layout NAME_WIDTH="120 pt" VALUE_WIDTH="120 pt"/>
 </node>
-<node TEXT="Children Entfalten (space). Auch falten." FOLDED="true" ID="ID_89526170" CREATED="1739991512613" MODIFIED="1743251806805">
+<node TEXT="Children Entfalten (space). Auch falten." ID="ID_89526170" CREATED="1739991512613" MODIFIED="1743251806805">
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
 <node TEXT="Ich bin ein child" ID="ID_1257087401" CREATED="1739991571948" MODIFIED="1739991579207"/>
 <node TEXT="Ich bin ein weiteres child" ID="ID_1463769491" CREATED="1739991579621" MODIFIED="1739991586520"/>
+<node TEXT="Falls ungewollt bei Mausklick" ID="ID_304099049" CREATED="1772198594490" MODIFIED="1772198968933"><richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Either: Click at the nodes side of its parent connection.<br/>Or: disable 'Fold on click inside' in the behaviour section
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node TEXT="Swap Tab" ID="ID_569449858" CREATED="1742143353063" MODIFIED="1743251749629">
+</node>
+<node TEXT="Swap Tab" ID="ID_569449858" CREATED="1742143353063" MODIFIED="1772196240571">
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
 <richcontent TYPE="DETAILS">
 <html>
@@ -588,6 +600,17 @@
   <body>
     <p>
       Ctrl + Tab ist ähnnlich
+    </p>
+  </body>
+</html></richcontent>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [switch tabs]
     </p>
   </body>
 </html></richcontent>
@@ -19100,7 +19123,7 @@
 <node TEXT="View - Control" ID="ID_593280548" CREATED="1740054156780" MODIFIED="1740054161646"/>
 </node>
 <node TEXT="Multiple Views side by side for one Map" ID="ID_952010861" CREATED="1740054685912" MODIFIED="1740054724347"/>
-<node TEXT="Presentations" ID="ID_1779053329" CREATED="1740054476079" MODIFIED="1740092985858">
+<node TEXT="Presentations" FOLDED="true" ID="ID_1779053329" CREATED="1740054476079" MODIFIED="1740092985858">
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
 <node TEXT="icon" ID="ID_952271205" CREATED="1740092960539" MODIFIED="1740093220841">
 <hook URI="FreePlaneLearningAk_img/ToolPanel.jpg" SIZE="1.0" NAME="ExternalObject"/>
@@ -19339,7 +19362,7 @@
 </node>
 </node>
 </node>
-<node FOLDED="true" ID="ID_607306079" TREE_ID="ID_569449858">
+<node ID="ID_607306079" TREE_ID="ID_569449858">
 <node ID="ID_676130970" TREE_ID="ID_957127406"/>
 </node>
 </node>
