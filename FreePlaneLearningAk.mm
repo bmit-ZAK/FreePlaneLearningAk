@@ -277,7 +277,7 @@
 </html></richcontent>
 </node>
 </node>
-<node TEXT="Notes (ctr + &lt;/&gt;)" FOLDED="true" ID="ID_588194298" CREATED="1610381622019" MODIFIED="1743251523131" HGAP_QUANTITY="15.7561 pt" VSHIFT_QUANTITY="-12.29268 pt"><richcontent TYPE="NOTE">
+<node TEXT="Notes (ctr + &lt;/&gt;)" ID="ID_588194298" CREATED="1610381622019" MODIFIED="1743251523131" HGAP_QUANTITY="15.7561 pt" VSHIFT_QUANTITY="-12.29268 pt"><richcontent TYPE="NOTE">
 <html>
   <head>
     
@@ -339,6 +339,12 @@
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
 <node TEXT="Ctrl + &apos;&gt;&apos; toggles editing between &apos;node&apos; and &apos;Note-panel&apos;&#xa;The position of that panel is defined in Menu View - notes" ID="ID_1032743096" CREATED="1740237849551" MODIFIED="1740237857121">
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
+</node>
+</node>
+<node TEXT="Note-panel ohne Headers" FOLDED="true" ID="ID_805673800" CREATED="1767002949842" MODIFIED="1767002959879">
+<node TEXT="Show/hide Headers of that panel is defined in Menu View - notes" ID="ID_1565609323" CREATED="1767002974478" MODIFIED="1767003109915"/>
+<node TEXT="Note-panel headers.jpg" ID="ID_1046190085" CREATED="1767003034974" MODIFIED="1767003034979">
+<hook URI="FreePlaneLearningAk_img/Note-panel%20headers.jpg" SIZE="1.0" NAME="ExternalObject"/>
 </node>
 </node>
 </node>
