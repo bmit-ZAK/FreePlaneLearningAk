@@ -1327,12 +1327,15 @@
 <node TEXT="View &amp;&#xa;Navigate" ID="ID_526600929" CREATED="1740054254394" MODIFIED="1740055028796">
 <attribute_layout NAME_WIDTH="28.34646 pt" VALUE_WIDTH="28.34646 pt"/>
 <node TEXT="Search for Nodes" ID="ID_1157997895" CREATED="1773143872728" MODIFIED="1773143887050">
-<node TEXT="Ctrl + G / Ctrl +E" ID="ID_1430032986" CREATED="1773143891735" MODIFIED="1773144333391"><richcontent TYPE="NOTE">
+<node TEXT="Ctrl + G / Ctrl +E" ID="ID_1430032986" CREATED="1773143891735" MODIFIED="1773145689618"><richcontent TYPE="NOTE">
 <html>
   <head>
     
   </head>
   <body>
+    <p>
+      [Find]<br/>
+    </p>
     <p>
       Ctrl + G Open a small Searchbox
     </p>
@@ -1349,7 +1352,7 @@
       Tipp: Search always travels from top to bottom. Therefore place the most important Nodes on top of the MindMap.
     </p>
     <p>
-      If there are many findings, the most important are faound first.
+      If there are many findings, the most important are faound first.<br/>Search starts from the node in focus. With 'Esc'&#xa0;&#xa0;focus is set to the central node, the home'
     </p>
   </body>
 </html></richcontent>
