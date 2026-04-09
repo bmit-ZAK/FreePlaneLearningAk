@@ -23,7 +23,7 @@ REM === Pruefen, ob Git vorhanden ===
 git --version >nul 2>&1 || (echo Git ist nicht installiert oder nicht im PATH.& goto :cleanup)
 
 REM === Pruefen, ob es ein Git-Repo ist ===
-git rev-parse --is-inside-work-tree >nul 2>&1 || (echo Kein Git-Repository gefunden.& goto :cleanup)
+git rev-parse --is-inside-work-tree >nul 2>&1 || (echo Kein Git-Repository gefunden.& pause & goto :cleanup)
 
 REM === Status anzeigen ===
 echo.
@@ -33,7 +33,7 @@ echo.
 
 REM === Alles stagen ===
 git add -A
-if errorlevel 1 (echo Fehler bei "git add".& goto :cleanup)
+if errorlevel 1 (echo Fehler bei "git add".&pause & goto :cleanup)
 
 REM === Gibt es Aenderungen? ===
 git diff --cached --quiet
@@ -65,7 +65,7 @@ if "%BRANCH%"=="" (
 echo.
 echo Push zu origin %BRANCH% ...
 git push origin "%BRANCH%"
-if errorlevel 1 (echo Fehler bei "git push".& goto :cleanup)
+if errorlevel 1 (echo Fehler bei "git push".& pause &goto :cleanup)
 
 echo.
 echo Fertig.
@@ -74,4 +74,5 @@ echo.
 :cleanup
 if not "%REPO_DIR%"=="" popd
 endlocal
+::pause
 exit /b 0
